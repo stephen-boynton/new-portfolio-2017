@@ -59,7 +59,7 @@
                     <div id="logo">
 
                         <!--Logo that is shown on the banner-->
-                        <h1 id="banner-logo">SB</h1>
+                        <!-- <h1 id="banner-logo">SB</h1> -->
                         <!--End of Banner Logo-->
 
                         <!--The Logo that is shown on the sticky Navigation Bar-->
@@ -115,10 +115,10 @@
                                 <a href="#about">About</a>
                             </li>
                             <li>
-                                <a href="#services">Tech</a>
+                                <a href="#tech">Tech</a>
                             </li>
                             <li>
-                                <a href="#clients">Portfolio</a>
+                                <a href="#portfolio">Portfolio</a>
                             </li>
                             <li>
                                 <a href="#contact">Contact</a>
@@ -157,7 +157,7 @@
     <main id="content">
 
       <!--Content Section-->
-      <div id="services" class="scrollto clearfix">
+      <div id="about" class="scrollto clearfix">
 
           <div class="row no-padding-bottom clearfix">
 
@@ -187,7 +187,7 @@
                   <p> I was born and raised in Greenville, SC. In 2004, I came to the College of Charleston, where I graduated with BA in English. <strong>My first career was as a litigation paralegal, but soon I fell in love with programming.</strong>
                   </p>
                   <p>
-                      It started with Python, then to web developemnt. I like to make things work, and work well. <strong>I love JavaScript and the world it offers, from Node to programming robots with Johnny Five. </strong>
+                      It started with Python, then to web developement. I like to make things work, and work well. <strong>I love JavaScript and the world it offers, from Node to programming robots with Johnny Five. </strong>
                   </p>
                   <!-- Just replace the Video ID "UYJ5IjBRlW8" with the ID of your video on YouTube (Found within the URL) -->
                   <!-- <a href="#" data-videoid="UYJ5IjBRlW8" data-videosite="youtube" class="button video link-lightbox">
@@ -201,7 +201,7 @@
               </div>
 
           </div>
-
+        </div>
 
 
 
@@ -210,7 +210,7 @@
 
 
         <!--Introduction-->
-        <section id="about" class="introduction scrollto">
+        <section id="tech" class="introduction scrollto">
 
             <div class="row clearfix">
 
@@ -319,7 +319,7 @@
 
 
         <!--Clients-->
-        <section id="clients" class="scrollto clearfix">
+        <section id="portfolio" class="scrollto clearfix">
             <div class="row clearfix">
 
                 <div class="col-3">
@@ -327,89 +327,53 @@
                     <div class="section-heading">
                         <h3>WHAT I'VE BUILT</h3>
                         <h2 class="section-title">Portfolio</h2>
-                        <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
+                        <div class="project-description"></div>
                     </div>
 
                 </div>
 
-                <div class="col-2-3">
+                <div class="col-2-3 projects">
 
-                    <a href="#" class="col-3">
+                    <div class="col-3 ham">
                         <img src="images/company-images/passnote2.png" alt="Company"/>
-                        <div class="client-overlay"><span>PassNote<br><em style="text-transform:none; color:lightgray;">An Etheral Messaging App</em></span></div>
-                    </a>
-                    <a href="#" class="col-3">
+                        <div class="client-overlay" id="passnote"><span class="passnote"><a href="" class="passnote"><i class="fa fa-eye fa-2x passnote a-icon"></i></a><a href=""><i class="fa fa-github fa-2x passnote "></i></a></span></div>
+                    </div>
+                    <div  class="col-3 ham">
                         <img src="images/company-images/snipe2.png" alt="Company"/>
-                        <div class="client-overlay"><span>Fingerprint</span></div>
-                    </a>
-                    <a href="#" class="col-3">
+                        <div class="client-overlay" id="snipe"><span class="snipe"><a href="" target="_blank" class="snipe"><i class="fa fa-eye fa-2x snipe a-icon"></i></a><a href="" target="_blank" class="snipe"><i class="fa fa-github fa-2x snipe"></i></a></span></div>
+                    </div>
+                    <div class="col-3 ham">
                         <img src="images/company-images/moon.png" alt="Company"/>
-                        <div class="client-overlay"><span>The Man</span></div>
-                    </a>
-                    <a href="#" class="col-3">
+                        <div class="client-overlay" id="moon"><span class="moon"><a href="" target="_blank" class="moon a-icon"><i class="fa fa-eye fa-2x moon"></i></a><a href="" target="_blank" class="moon"><i class="fa fa-github fa-2x moon"></i></a></span></div>
+                    </div>
+                    <div class="col-3 ham">
                         <img src="images/company-images/radtunes.png" alt="Company"/>
-                        <div class="client-overlay"><span>Mustache</span></div>
-                    </a>
-                    <a href="#" class="col-3">
+                        <div class="client-overlay" id="radtunes"><span class="radtunes"><a href="" target="_blank" class="radtunes a-icon"><i class="fa fa-eye fa-2x radtunes"></i></a><a href="" target="_blank" class="radtunes"><i class="fa fa-github fa-2x radtunes"></i></a></span></div>
+                    </div>
+                    <div class="col-3 ham">
                         <img src="images/company-images/llama.png" alt="Company"/>
-                        <div class="client-overlay"><span>Goat</span></div>
-                    </a>
-                    <a href="#" class="col-3">
+                        <div class="client-overlay" id="chatbot"><span class="chatbot"><a href="" target="_blank" class="chatbot a-icon"><i class="fa fa-eye fa-2x chatbot"></i></a><a href="" target="_blank" class="chatbot"><i class="fa fa-github fa-2x chatbot"></i></a></span></div>
+                    </div>
+                    <div class="col-3 ham">
                         <img src="images/company-images/chastweet.png" alt="Company"/>
-                        <div class="client-overlay"><span>Justice</span></div>
-                    </a>
+                        <div class="client-overlay" id="chstweets"><span class="chstweets"><a target="_blank" href="" class="chstweets a-icon"><i class="fa fa-eye fa-2x chstweets"></i></a><a href="" target="_blank" class="chstweets"><i class="fa fa-github fa-2x chstweets"></i></a></span></div>
+                    </div>
 
                 </div>
 
             </div>
         </section>
         <!--End of Clients-->
+        <!-- contact me -->
+        <div id="contact" class="col-3 contact-me">
+          <!-- <img src="./images/keyboard2.jpg" alt=""> -->
+          <h2>My resume is available upon request.</h2>
+          <a href="#" class="button">CONTACT ME</a>
+        </div>
+
 
     </main>
     <!--End Main Content Area-->
-
-
-    <!--Footer-->
-    <footer id="landing-footer" class="clearfix">
-        <div class="row clearfix">
-
-            <p id="copyright" class="col-2">Made with love by <a href="https://www.shapingrain.com">ShapingRain</a></p>
-
-            <!--Social Icons in Footer-->
-            <ul class="col-2 social-icons">
-                <li>
-                    <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
-                        <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" title="Google+" href="http://google.com/+username">
-                        <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
-                        <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" title="Instagram" href="http://www.instagram.com/username">
-                        <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" title="behance" href="http://www.behance.net">
-                        <i class="fa fa-behance fa-1x"></i><span>Behance</span>
-                    </a>
-                </li>
-            </ul>
-            <!--End of Social Icons in Footer-->
-        </div>
-    </footer>
-    <!--End of Footer-->
-
 </div>
 
 <!-- Include JavaScript resources -->
@@ -425,6 +389,7 @@
 <script src="js/images-loaded.min.js"></script>
 <script src="js/lightbox.min.js"></script>
 <script src="js/site.js"></script>
+<script src="js/main.js" charset="utf-8"></script>
 
 
 </body>
