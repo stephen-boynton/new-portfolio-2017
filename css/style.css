@@ -2276,5 +2276,9 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 200px;
+  margin: 200px 0;
+}
+
+.icon-block-description ul li {
+  list-style: none;
 }
