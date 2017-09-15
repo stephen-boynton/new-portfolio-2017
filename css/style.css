@@ -2265,11 +2265,16 @@ blockquote {
   margin: 0 20% 0 0;
 }
 
+hr {
+  width: 60%;
+  border-color: #d2b356;
+}
+
 #contact {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 200px;
+  margin-bottom: 200px;
 }
