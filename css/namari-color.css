@@ -140,23 +140,21 @@ body {
 	color: #111;
 }
 
-/* Logo, if you are using Fonts as Logo and not image
+/*Logo, if you are using Fonts as Logo and not image*/
 
 #logo h1 {
-    font-family:;
-    font-size:;
-    font-weight:;
-    color:;
+	font-family: ;
+	font-size: ;
+	font-weight: ;
+	color: ;
 }
 
 #logo h2 {
-    font-family:;
-    font-size:;
-    font-weight:;
-    color:;
+	font-family: ;
+	font-size: ;
+	font-weight: ;
+	color: ;
 }
-
-*/
 
 /* Banner Typography */
 
@@ -199,11 +197,6 @@ body {
 	font-weight: 300;
 }
 
-.testimonial.classic q,
-.testimonial.classic footer {
-	color: #111;
-}
-
 /* Standard Headings h1-h6 */
 
 h1 {
@@ -230,20 +223,6 @@ h3 {
 h4 {
 	font-family: "Open Sans", sans-serif, Arial, Helvetica;
 	font-size: 18px;
-	font-weight: 400;
-	color: #111;
-}
-
-h5 {
-	font-family: "Open Sans", sans-serif, Arial, Helvetica;
-	font-size: 16px;
-	font-weight: 400;
-	color: #111;
-}
-
-h6 {
-	font-family: "Open Sans", sans-serif, Arial, Helvetica;
-	font-size: 14px;
 	font-weight: 400;
 	color: #111;
 }
@@ -305,21 +284,6 @@ input[type="submit"]:hover {
 /*------------------------------------------------------------------------------------------*/
 /* 7. Footer */
 /*------------------------------------------------------------------------------------------*/
-
-#landing-footer,
-#landing-footer p,
-#landing-footer a {
-	font-family: "Open Sans", sans-serif, Arial, Helvetica;
-	font-size: 12px;
-	font-weight: normal;
-	color: #999;
-}
-
-/* Footer Icon Color */
-
-#landing-footer i {
-	color: #999;
-}
 
 @media only screen and (min-width: 940px) {
 	#banner {
