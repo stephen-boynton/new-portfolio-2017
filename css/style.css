@@ -1712,11 +1712,6 @@ blockquote {
 
     /*-----------------Sections-----------------*/
 
-    /* Video */
-    .slvj-lightbox iframe, .slvj-lightbox object, .slvj-lightbox embed {
-        height: 370px !important;
-    }
-
     /* Footer */
     #landing-footer #copyright {
         float: left;
@@ -1804,4 +1799,30 @@ hr {
 
 .icon-block-description ul li {
   list-style: none;
+}
+
+.middle-pic {
+  padding: 200px 0;
+}
+
+.flex {
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-2 {
+  display: inherit;
+  width: 200px;
+}
+
+@media (max-width: 770px) {
+  .other {
+    display: none;
+  }
+
+  .middle-pic {
+    display: none;
+  }
 }
