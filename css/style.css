@@ -1826,3 +1826,9 @@ hr {
     display: none;
   }
 }
+
+@media (min-width: 1025px) {
+  #portfolio {
+    margin-left: 10px;
+  }
+}
