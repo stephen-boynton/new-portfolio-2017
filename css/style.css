@@ -907,20 +907,24 @@ blockquote {
     text-align: center;
     position: relative;
     text-transform: uppercase;
+    height: auto;
     font-weight: bold;
     color: #fff;
 }
 
 #portfolio img {
     display: inline-block;
-    padding: 15px 25px;
+    padding: 10%;
+}
+
+#portfolio .redStringUpper img {
+    height: 150px;
 }
 
 .client-overlay {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
-    top;
-    0;
+    top; 0;
     right: 0;
     bottom: 0;
     left: 0;
@@ -1799,6 +1803,10 @@ hr {
 
 .icon-block-description ul li {
   list-style: none;
+}
+
+.redstring-img {
+    padding: 20px 0;
 }
 
 .middle-pic {
