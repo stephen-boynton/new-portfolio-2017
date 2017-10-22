@@ -37,7 +37,7 @@ projectsDiv.addEventListener("mouseover", function(event) {
   } else if (target.id === "the-ink" || target.classList.contains("the-ink")) {
     projectDescription.innerHTML = `
     <h4><strong>The Ink</strong></h4>
-    <p>This is a full stack React Blogging Application. Users can signup, login, write posts and leave comments..</p>
+    <p>This is a full stack React Blogging Application. Users can signup, login, write posts and leave comments.</p>
     <h6>Tech Used: React, React Router, Redux, Node, Express, SQLite3</h6>
             `;
   } else if (
